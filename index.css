@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+      font-family: "Kanit", sans-serif;
+}
+
+header{
+    background-color: black ;
+}
+.nav-container{
+    color: white;
+    height: 6rem;
+    padding-inline: 2.4rem;
+    display: flex;
+    justify-content: center;
+  max-width: 127rem;
+  margin: 0 auto;
+}
+
+.nav-box1, .nav-box3{
+        flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+    //background-color: red;
+}
+
+.nav-box2{
+        flex-grow: 0;
+    max-width: 47%;
+    flex-basis: 47%;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-box2 p {
+    padding-right: 2rem;
+    font-weight: 600;
+}
+.nav-box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log-in-btn{
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.subscription-plan{
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom:0.8rem;
+}
+.hero-text{
+    color: #52524f;
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.payment-cards-container{
+    display: flex;
+    column-gap: 2.4rem;
+    justify-content: center;
+}
+
+.annual-card-container{
+    min-width: 30rem;
+    padding: 5.6rem 2.4rem 3.2rem;
+    border: 1px solid #c4c4c0;
+    border-radius: 0.2rem;
+    margin-bottom: 3rem ;
+}
+
+.annual-card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.annual-text{
+    font-size: 4.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.line{
+    width: 5rem;
+border: 1px solid #121212;
+    margin-bottom: 1.5rem;
+
+}
+
+.price-text{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.select-btn-black{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    min-width: 100%;
+    height: 4.7rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.last-text{
+    font-size: 1.1rem;
+    color: #52524f;
+    font-weight: 300;
+    
+}
+.last-line{
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
+}
+.gift-plan-text, .student-plan-text{
+    text-decoration: none;
+    color: black;
+    font-weight: 410;
+    //font-size: 0.1em;
+}
